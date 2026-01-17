@@ -1,4 +1,4 @@
-from 2air import arithmetic_operations
+from air import arithmetic_operations
 
 def test_positive_numbers():
     assert arithmetic_operations(10, 5) == (15, 5, 50, 2.0)
